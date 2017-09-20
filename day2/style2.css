@@ -1,0 +1,35 @@
+body {
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: justify;
+}
+.par {
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 1px 4px 10px #aaa;
+    padding: 65px;
+}
+h1 {
+    text-transform: uppercase;
+    margin-left: 150px;
+
+}
+ul li {
+    font-family: consolas;
+}
+.stl1 {
+    color: darkgreen;
+}
+.stl2 {
+    color: red;
+}
+.list1 {
+    list-style-type: circle;
+}
+img {
+    height: 479px;
+    width: 356px;
+}
+.indent {
+    text-indent: 10px;
+}
