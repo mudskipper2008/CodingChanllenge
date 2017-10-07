@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Basic</title>
+    <link rel="stylesheet" type ="text/css" href="style8.css">
+</head>
+<body>
+<form action="#">
+    <fieldset>
+        <legend>Thông tin cơ bản </legend>
+        <div class="label-name">
+            <label>Tên tài khoản</label>
+            <label>Email</label>
+            <label>Mật khẩu</label>
+            <label>Xác nhận mật khẩu</label>
+        </div>
+        <div class="fill">
+            <input class="input" type="text" name="username" placeholder="Tài khoản đăng nhập."><br>
+            <input class="input" type="text" name="email" placeholder="Email của bạn."><br>
+            <input class="input" type="text" name="password" placeholder="Mật khẩu đăng nhập."><br>
+            <input class="input" type="text" name="passwordconfirm" placeholder="Nhập lại mật khẩu."><br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Thông tin chi tiết </legend>
+        <div class="label-name">
+            <label>Họ và tên </label>
+            <label>Ngày sinh </label>
+            <label>Giới tính </label>
+            <label>Sở thích </label>
+            <label>Ảnh đại diện </label>
+            <label>Giới thiệu về bản thân </label>
+        </div>
+        <div class="fill">
+            <input class="input name" type="text" name="fullname" placeholder="Họ và tên của bạn. "><br>
+            <input class="input" type="text" name="birthday" value="mm/dd/yyyy"><br>
+            <input type="radio" name="gender" value="nam" checked>Nam
+            <input type="radio" name="gender" value="nu">Nữ <br>
+            <input type="checkbox" name="hobbies" value="sport">Thể thao
+            <input type="checkbox" name="hobbies" value="movie">Xem phim
+            <input type="checkbox" name="hobbies" value="music" checked>Nghe nhạc
+            <input type="checkbox" name="hobbies" value="books" checked>Đọc sách <br>
+            <input type="file"  value="Choose File"><br>
+            <textarea name="intro"></textarea><br>
+        </div>
+    </fieldset>
+
+</form>
+</body>
+</html>

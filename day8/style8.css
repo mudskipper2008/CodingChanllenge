@@ -1,0 +1,32 @@
+form {
+    width: 60%;
+    margin: auto;
+}
+fieldset {
+    line-height: 50px;
+    border-radius: 6px;
+}
+.label-name {
+    float: left;
+}
+label {
+    display: block;
+    width: 150px;
+}
+.fill {
+    margin-left: 40px;
+    float: left;
+}
+.input {
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+}
+.name {
+    width: 400px;!important;
+}
+textarea {
+    height: 90px;
+    width: 400px;
+    border-radius: 6px;
+}
