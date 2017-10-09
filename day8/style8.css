@@ -13,10 +13,6 @@ label {
     display: block;
     width: 150px;
 }
-.fill {
-    margin-left: 40px;
-    float: left;
-}
 .input {
     width: 200px;
     height: 25px;
@@ -29,4 +25,14 @@ textarea {
     height: 90px;
     width: 400px;
     border-radius: 6px;
+}
+.action {
+    text-align: center;
+    margin: 20px;
+}
+.action button {
+    height: 25px;
+    border-radius: 6px;
+    width: 75px;
+    cursor: pointer;
 }
